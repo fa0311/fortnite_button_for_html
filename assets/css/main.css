@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'fortnite';
+    src: url(../font/BurbankBigCondensed.otf)format('opentype');
+}
+
+.fn_button {
+    display: inline-block;
+    background: linear-gradient(180deg, #ffff69, #ffffcc);
+}
+
+.fn_button .fn_frame {
+    display: inline-block;
+    background: linear-gradient(180deg, #f3e41c, #f8f050);
+    margin: 3px;
+    transform: skewX(-5deg) skewY(-1.5deg);
+}
+
+.fn_button .fn_text {
+    display: inline-block;
+    margin: 5px 35px;
+    transform: skewX(5deg) skewY(1.5deg);
+    font-family: 'fortnite';
+    font-size: 16px;
+}
+
+.fn_button[size=lg] .fn_frame {
+    margin: 5px;
+}
+
+.fn_button[size=lg] .fn_text {
+    margin: 5px 45px;
+    font-size: 30px;
+}
+
+.fn_button[size=xl] .fn_frame {
+    margin: 8px;
+}
+
+.fn_button[size=xl] .fn_text {
+    margin: 10px 90px;
+    font-size: 50px;
+}
